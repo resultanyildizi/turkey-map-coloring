@@ -25,6 +25,11 @@ main {
   justify-content: center;
 }
 
+#defaultCanvas0 {
+  background-image: url("./turkey_map.png");
+  background-repeat: no-repeat;
+}
+
 p {
   text-align: center;
   font-size: large;

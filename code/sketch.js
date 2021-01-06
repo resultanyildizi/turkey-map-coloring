@@ -16,13 +16,11 @@ function setup() {
 }
 
 function draw() {
-  background(255);
-  image(mapImg, 0, 0);
   drawMap();
 }
 
 async function graphColor(v) {
-  await new Promise((r) => setTimeout(r, 200));
+  await new Promise((r) => setTimeout(r, 150));
 
   if (v === Turkeymap.length) {
     console.log(Turkeymap);

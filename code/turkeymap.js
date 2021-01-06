@@ -634,7 +634,3 @@ function printArray() {
     )
   );
 }
-
-function preload() {
-  mapImg = loadImage("turkey_map.png");
-}
